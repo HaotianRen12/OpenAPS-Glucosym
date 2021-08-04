@@ -91,19 +91,20 @@ Before the installation process, the following things need to be installed:
 
 ### Setting up Glucosym  
 
-First, run the following commands:  
+First, open another terminal window and run the following commands:  
 ```sh
-$ cd ./glucosym
+$ cd ./OpenAPS-Glucosym
 $ source ./venv/bin/activate
+$ cd ./glucosym
 $ npm start
 ```
 Then, open a browser and navigate to http://localhost:3000.
 
 ### Initializing and running OpenAPS closed loop
 
-Open another terminal window and initialize OpenAPS:
+Navigate back to the first terminal window and initialize OpenAPS:
 ```sh
-$ cd [OpenAPS directory] - the name of the OpenAPS directory may vary depends on the name set during the installation  
+$ cd ./openaps2.7   
 $ python initialize.py [initial bg]  
 ```
 Next, change the initial bg of the selected patient on the glucosym server and run the closed loop simulation:
