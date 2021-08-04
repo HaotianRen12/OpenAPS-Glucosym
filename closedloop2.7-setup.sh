@@ -15,6 +15,7 @@ if [[ "${answer}" == n ]] ; then
   done
 fi
 
+pip install setuptools==44.1.1
 pip install numpy watchdog nodeenv openaps openaps-contrib matplotlib
 
 apt-get download python-dev python-software-properties
