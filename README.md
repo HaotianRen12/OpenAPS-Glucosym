@@ -88,12 +88,6 @@ $ deactivate
   $ chmod u+x ./closedloop2.7-setup.sh
   $ ./closedloop2.7-setup.sh
   ```
-  
-3. Make openaps2.7 a git repo
-  ```sh
-  $cd ./openaps2.7
-  $git init
-  ```
    
 <!-- SIMULATION WORKFLOW -->
 ## Simulation Workflow  
