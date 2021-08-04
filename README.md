@@ -55,6 +55,7 @@ This section should list any major frameworks that you built your project using.
 Before the installation process, the following things need to be installed:
 * Python
 * pip
+* git
 * virtualenv (``` $ pip install virtualenv ```)  
   
 Then, a virtual environment can to be set up with the following steps:  
@@ -84,7 +85,7 @@ $ deactivate
   
 2. Run the auto-install script  
   ```sh
-  $ ./
+  $ ./closed
   ```
    
 <!-- SIMULATION WORKFLOW -->
