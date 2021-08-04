@@ -36,6 +36,12 @@ cp -f ./basal-set-temp.js ./${venv_name}/lib/node_modules/oref0/lib/
 cp -f ./determine-basal.js ./${venv_name}/lib/node_modules/oref0/lib/determine-basal/
 cp -f ./oref0-determine-basal.js ./${venv_name}/lib/node_modules/oref0/bin/
 
+cd ./openaps2.7
+git init
+
+echo "Auto-installation finished!"
+
+
 
 
 
