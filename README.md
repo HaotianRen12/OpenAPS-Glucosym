@@ -108,7 +108,7 @@ Open another terminal window and initialize OpenAPS:
 $ cd [OpenAPS directory] - the name of the OpenAPS directory may vary depends on the name set during the installation  
 $ python initialize.py [initial bg]  
 ```
-Next, change the initial bg of the selected patient on glucosym server and run the closed loop simulation:
+Next, change the initial bg of the selected patient on the glucosym server and run the closed loop simulation:
 ```sh
 $ python updated_ct_script_iob_based.py [number of iterations]  
 ```
