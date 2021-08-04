@@ -85,7 +85,13 @@ $ deactivate
   
 2. Run the auto-install script  
   ```sh
-  $ ./closed
+  $ ./closedloop2.7-setup.sh
+  ```
+  
+3. Make openaps2.7 a git repo
+  ```sh
+  $cd openaps2.7
+  $git init
   ```
    
 <!-- SIMULATION WORKFLOW -->
