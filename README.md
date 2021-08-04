@@ -85,12 +85,13 @@ $ deactivate
   
 2. Run the auto-install script  
   ```sh
+  $ chmod u+x ./closedloop2.7-setup.sh
   $ ./closedloop2.7-setup.sh
   ```
   
 3. Make openaps2.7 a git repo
   ```sh
-  $cd openaps2.7
+  $cd ./openaps2.7
   $git init
   ```
    
@@ -101,7 +102,7 @@ $ deactivate
 
 First, run the following commands:  
 ```sh
-$ cd glucosym
+$ cd ./glucosym
 $ npm start
 ```
 Then open a browser and navigate to http://localhost:3000.
