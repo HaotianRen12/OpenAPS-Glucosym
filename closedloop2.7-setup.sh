@@ -3,7 +3,7 @@
 python_version=python2.7
 venv_name=venv
 
-echo "Is 'venv' the folder name of the virtual environment?(y/n)"
+echo "Is 'venv' the folder name of the virtual environment?(Y/n)"
 read answer
 if [[ "${answer}" == n ]] ; then
   echo "Please enter the folder name of the virtual environment:"
