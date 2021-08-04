@@ -55,7 +55,7 @@ This section should list any major frameworks that you built your project using.
 Before the installation process, the following things need to be installed:
 * python2.7   
 * pip (``` $ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py ```)   
-* virtualenv (``` $ pip install virtualenv ```)  
+* virtualenv@15.0.1 (``` $ pip install virtualenv==15.0.1 ```)  
 * git   
 
 ### Installation
