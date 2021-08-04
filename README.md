@@ -56,25 +56,7 @@ Before the installation process, the following things need to be installed:
 * python2.7   
 * pip (``` $ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py ```)   
 * virtualenv (``` $ pip install virtualenv ```)  
-* git
-  
-Then, a virtual environment can to be set up with the following steps:  
-```sh
-$ cd OpenAPS-Glucosym 
-```
-```sh
-$ virtualenv --no-site-packages --python=/usr/bin/python2 ./venv/ - set up a virtual environment that uses python2  
-```
-
-To enter the virtual environment, use the following command:
-```sh
-$ source ./venv/bin/activate
-```
-
-To quit the virtual environment, use the following command:
-```sh
-$ deactivate
-```
+* git   
 
 ### Installation
 
@@ -82,8 +64,25 @@ $ deactivate
   ```sh
   $ git clone https://github.com/HtR212/OpenAPS-Glucosym.git
   ```
+
+2. Virtual environment
+  A virtual environment need to be set up inside ./OpenAPS-Glucosym/:  
+  ```sh
+  $ cd ./OpenAPS-Glucosym  
+  $ virtualenv --no-site-packages --python=/usr/bin/python2 ./venv/ - set up a virtual environment that uses python2  
+  ```
+
+  To enter the virtual environment, use the following command:
+  ```sh
+  $ source ./venv/bin/activate
+  ```
+
+  To quit the virtual environment, use the following command:
+  ```sh
+  $ deactivate
+  ```
   
-2. Run the auto-install script  
+3. Run the auto-install script  
   ```sh
   $ chmod u+x ./closedloop2.7-setup.sh
   $ ./closedloop2.7-setup.sh
