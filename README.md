@@ -60,12 +60,12 @@ Before the installation process, the following things need to be installed:
 
 ### Installation
 
-1. Clone the repo
+####1. Clone the repo
   ```sh
   $ git clone https://github.com/HtR212/OpenAPS-Glucosym.git
   ```
 
-2. Virtual environment   
+####2. Virtual environment   
   * A virtual environment need to be set up inside ./OpenAPS-Glucosym/:  
   ```sh
   $ cd ./OpenAPS-Glucosym  
@@ -80,7 +80,7 @@ Before the installation process, the following things need to be installed:
   $ deactivate
   ```
   
-3. Run the auto-install script  
+####3. Run the auto-install script  
   ```sh
   $ chmod u+x ./closedloop2.7-setup.sh
   $ ./closedloop2.7-setup.sh
