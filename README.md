@@ -94,6 +94,7 @@ Before the installation process, the following things need to be installed:
 First, run the following commands:  
 ```sh
 $ cd ./glucosym
+$ source ./venv/bin/activate
 $ npm start
 ```
 Then, open a browser and navigate to http://localhost:3000.
