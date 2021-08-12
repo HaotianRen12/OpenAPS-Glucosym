@@ -69,7 +69,7 @@ Before the installation process, the following things need to be installed:
   * A virtual environment need to be set up inside ./OpenAPS-Glucosym/:  
   ```sh
   $ cd ./OpenAPS-Glucosym  
-  $ virtualenv --no-site-packages --python=/usr/bin/python2 ./venv/ - set up a virtual environment that uses python2  
+  $ virtualenv --no-site-packages --python=/usr/bin/python2 ./venv/ #set up a virtual environment that uses python2  
   ```
   * To enter the virtual environment, use the following command:
   ```sh
