@@ -77,45 +77,47 @@ Before the installation process, the following things need to be installed:
   ```
   * To quit the virtual environment, use the following command:
   ```sh
-  $ deactivate
+  (venv)$ deactivate
   ```
+  * Note: The virtual environment needs to be activated while doing the following steps.
   
 3. **Run the auto-install script**  
   ```sh
-  $ chmod u+x ./closedloop2.7-setup.sh
-  $ ./closedloop2.7-setup.sh
+  (venv)$ chmod u+x ./closedloop2.7-setup.sh
+  (venv)$ ./closedloop2.7-setup.sh
   ```
+* After finishing the above steps, please close the current terminal window. 
    
 <!-- SIMULATION WORKFLOW -->
 ## Simulation Workflow  
 
 ### Setting up Glucosym  
 
-First, open another terminal window and run the following commands:  
+First, open a terminal window and run the following commands:  
 ```sh
-$ cd ./OpenAPS-Glucosym
-$ source ./venv/bin/activate
-$ cd ./glucosym
-$ npm start
+(venv)$ cd ./OpenAPS-Glucosym
+(venv)$ source ./venv/bin/activate
+(venv)$ cd ./glucosym
+(venv)$ npm start
 ```
 Then, open a browser and navigate to http://localhost:3000.
 
 ### Initializing and running OpenAPS closed loop
 
-Navigate back to the first terminal window and initialize OpenAPS:
+Open another terminal window and initialize OpenAPS:
 ```sh
-$ cd ./openaps2.7   
-$ python initialize.py [initial bg]  
+(venv)$ cd ./openaps2.7   
+(venv)$ python initialize.py [initial bg]  
 ```
 Next, change the initial bg of the selected patient on the glucosym server and run the closed loop simulation:
 ```sh
-$ python updated_ct_script_iob_based.py [number of iterations]  
+(venv)$ python updated_ct_script_iob_based.py [number of iterations]  
 ```
 
 ### Collecting output data
 Run the following command:
 ```sh
-$ python updated_collected.py
+(venv)$ python updated_collected.py
 ```
 The output data should be collected in a file called data.scv under the OpenAPS directory.
 
