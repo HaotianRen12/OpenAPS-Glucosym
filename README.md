@@ -28,7 +28,7 @@
       <ul>
         <li><a href="#setting-up-glucosym">Setting up Glucosym</a></li>
         <li><a href="#initializing-and-running-openaps-closed-loop">Initializing and running OpenAPS closed loop</a></li>
-        <li><a href="#collocting-output-data">Collecting output data</a></li>
+        <li><a href="#collecting-output-data">Collecting output data</a></li>
       </ul>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
