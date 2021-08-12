@@ -16,9 +16,9 @@ if [[ "${answer}" == n ]] ; then
 fi
 
 pip install setuptools==44.1.1
-pip install numpy watchdog nodeenv openaps openaps-contrib matplotlib
+pip install numpy==1.16.6 watchdog==0.10.7 nodeenv==1.6.0 openaps==0.1.5 openaps-contrib==0.0.15 matplotlib==2.2.5
 
-apt-get download python-dev python-software-properties
+apt-get download python-dev=2.7.12-1~16.04 python-software-properties=0.96.20.10
 
 dpkg -x ./python-dev* ./dev
 dpkg -x ./python-software-properties* ./software-properties
@@ -31,7 +31,7 @@ rm ./python-software-properties*
 
 nodeenv -p --node=12.22.1
 npm init -g
-npm install -g json oref0
+npm install -g json@11.0.0 oref0@0.7.0
 
 cp -f ./basal-set-temp.js ./${venv_name}/lib/node_modules/oref0/lib/
 cp -f ./determine-basal.js ./${venv_name}/lib/node_modules/oref0/lib/determine-basal/
