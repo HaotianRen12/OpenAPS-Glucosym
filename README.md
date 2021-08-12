@@ -106,6 +106,8 @@ Then, open a browser and navigate to http://localhost:3000.
 
 Open another terminal window and initialize OpenAPS:
 ```sh
+(venv)$ cd ./OpenAPS-Glucosym  
+(venv)$ source ./venv/bin/activate
 (venv)$ cd ./openaps2.7   
 (venv)$ python initialize.py [initial bg]  
 ```
